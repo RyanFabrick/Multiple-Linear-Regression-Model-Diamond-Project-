@@ -1,11 +1,7 @@
 ---
-title: "Final Project"
+title: "Diamond Price Prediction (Multiple Linear Regression Model)"
 author: |
   Name: Ryan Fabrick  
-  Perm: A006000  
-  Section: Wednesday 10:00–10:50am  
-  Course: PSTAT 126  
-  Professor: Puja Pandey
 output: pdf_document
 ---
 
