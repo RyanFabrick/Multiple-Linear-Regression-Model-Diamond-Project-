@@ -2,6 +2,14 @@
 
 This is a regression analysis project predicting diamond prices using a dataset of 53,943 observations from Kaggle. This project builds and evaluates linear regression models to predict diamond prices using carat, cut, color, clarity, and physical dimensions. It covers descriptive statistics, simple linear regression, log-log transformation, model selection, and multicollinearity diagnostics.
 
+## Table of Contents
+
+- [Why Did I Build This?](#why-did-i-build-this)
+- [Results](#results)
+- [Outline & Analysis](#outline--analysis)
+- [Dependencies](#dependencies)
+- [Acknowledgements & References](#acknowledgements--references)
+
 ## Why Did I Build This?
 
 I built this for a Linear Regression upper division elective course during my third year at UCSB as a Statistics and Data Science major. This was a final project assignment and received full credit for code accuracy, code justifications, result interpretations, and overall analysis. This course specifically dove in depth on the mathematical theory and proofs behind different linear regression models. The coding portion for this course was taught in R, thus I completed the project in R.
