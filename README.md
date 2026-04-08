@@ -31,7 +31,7 @@ I built this for a Linear Regression upper division elective course during my th
 
 ## Outline & Analysis
 
-For more in depth explanations, code, reasoning, thought process, justification, and analysis, go to the main.rmd file. For a brief outline and analysis look below. And for full rendered PDF report, scroll down or [click here](Rendered%20PDF.pdf).
+For more in depth explanations, code, reasoning, thought process, justification, and analysis, go to the [main file](main.rmd). For a brief outline and analysis look below. And for full rendered PDF report, scroll down or [click here](Rendered%20PDF.pdf).
 
 ### Part 1 — Data Description
 - Random sample of 2,000 diamonds from the full dataset
