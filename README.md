@@ -7,6 +7,7 @@ This is a regression analysis project predicting diamond prices using a dataset 
 - [Why Did I Build This?](#why-did-i-build-this)
 - [Results](#results)
 - [Outline & Analysis](#outline--analysis)
+- [Rendered PDF](#rendered-pdf)
 - [Dependencies](#dependencies)
 - [Acknowledgements & References](#acknowledgements--references)
 
@@ -28,10 +29,9 @@ I built this for a Linear Regression upper division elective course during my th
 - 95% CI: ($2,727.04, $2,828.71)
 - 95% PI: ($2,140.57, $3,603.72)
 
-
 ## Outline & Analysis
 
-For more in depth explanations, code, reasoning, thought process, justification, and analysis, go to the main.rmd file. For a brief outline and analysis look below:
+For more in depth explanations, code, reasoning, thought process, justification, and analysis, go to the main.rmd file. For a brief outline and analysis look below. And for full rendered PDF report, scroll down or [click here](Rendered%20PDF.pdf).
 
 ### Part 1 — Data Description
 - Random sample of 2,000 diamonds from the full dataset
@@ -50,6 +50,9 @@ For more in depth explanations, code, reasoning, thought process, justification,
 - VIF diagnostics (x: 673.23, y: 668.20 — severe multicollinearity confirmed)
 - Final model removes x, y, z; all VIF values below 1.15
 
+## Rendered PDF
+
+To view the rendered PDF from the [main file](main.RMD) that is produced, [click here](Rendered%20PDF.pdf).
 
 ## Dependencies
 
@@ -70,6 +73,9 @@ library(car)
 - **[ggplot2](https://ggplot2.tidyverse.org/)** — Tidyverse package used for all data visualizations including histograms, bar plots, and scatter plots
 - **[corrplot](https://cran.r-project.org/web/packages/corrplot/)** — R package used to generate the correlation matrix heatmap for visualizing relationships between numerical variables
 - **[car](https://cran.r-project.org/web/packages/car/)** — R package used for Variance Inflation Factor (VIF) diagnostics to detect and address multicollinearity
+
+
+**© 2026 Ryan Fabrick. All rights reserved. This project may not be reused, adapted, or submitted for academic coursework without explicit written permission from the author.**
 
 ________________________________________________
 Built with ❤️ for UCSB
