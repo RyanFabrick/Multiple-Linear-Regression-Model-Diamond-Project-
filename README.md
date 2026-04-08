@@ -9,6 +9,8 @@ This is a regression analysis project predicting diamond prices using a dataset 
 - [Outline & Analysis](#outline--analysis)
 - [Rendered PDF](#rendered-pdf)
 - [Dependencies](#dependencies)
+- [License](#license)
+- [Author](#author)
 - [Acknowledgements & References](#acknowledgements--references)
 
 ## Why Did I Build This?
@@ -65,6 +67,18 @@ library(corrplot)
 library(car)
 ```
 
+## License
+
+**© 2026 Ryan Fabrick. All rights reserved. This project may not be reused, adapted, or submitted for academic coursework without explicit written permission from the author.**
+
+## Author
+
+**Ryan Fabrick**
+- Statistics and Data Science (B.S) Student, University of California Santa Barbara
+- GitHub: [https://github.com/RyanFabrick](https://github.com/RyanFabrick)
+- LinkedIn: [www.linkedin.com/in/ryan-fabrick](https://www.linkedin.com/in/ryan-fabrick)
+- Email: ryanfabrick@gmail.com
+
 ## Acknowledgements & References
 
 - **[Kaggle Dataset](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices)** — Diamonds Prices 2022, the source dataset containing 53,943 diamond observations with price, carat, cut, color, clarity, and physical dimension attributes
@@ -73,9 +87,6 @@ library(car)
 - **[ggplot2](https://ggplot2.tidyverse.org/)** — Tidyverse package used for all data visualizations including histograms, bar plots, and scatter plots
 - **[corrplot](https://cran.r-project.org/web/packages/corrplot/)** — R package used to generate the correlation matrix heatmap for visualizing relationships between numerical variables
 - **[car](https://cran.r-project.org/web/packages/car/)** — R package used for Variance Inflation Factor (VIF) diagnostics to detect and address multicollinearity
-
-
-**© 2026 Ryan Fabrick. All rights reserved. This project may not be reused, adapted, or submitted for academic coursework without explicit written permission from the author.**
 
 ________________________________________________
 Built with ❤️ for UCSB
